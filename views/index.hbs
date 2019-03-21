@@ -1,0 +1,30 @@
+<h1>Product</h1>
+
+<div class="row">
+
+    .<div class="card text-left">
+        <img class="card-img-top" src="ajedrez.jpg" alt="">
+        <div class="card-body">
+            <h4 class="card-title">COMPRA AHORA</h4>
+            <p class="card-footer">
+
+
+
+                <form action="/checkout" method="POST">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_FE4jpNGuvKkOPFiFKi00Ia3Z00pGcyX01b" data-amount="3000" data-name="Demo Site"
+                        data-description="MARKET CHESS"
+                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png" data-locale="auto">
+                        </script>
+                        <script>document.getElementsByClassName('stripe-button-el')[0].style.display = "none"</script>
+                        <button class="btn btn-dark btn-block">
+                            Buy<i class="fas fa-shopping-cart"></i>
+                        </button>
+                </form>
+
+
+              
+            </p>
+        </div>
+    </div>
+</div>
